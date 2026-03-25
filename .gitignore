@@ -1,0 +1,17 @@
+# 1. Ignorar entornos virtuales (Pesan mucho y no se comparten)
+taller_nlp/
+venv/
+env/
+
+# 2. Ignorar datasets pesados y resultados (Evita que GitHub te bloquee)
+data/
+*.csv
+
+# 3. Ignorar archivos caché basura que crea Python automáticamente
+__pycache__/
+*.pyc
+*.pyo
+
+# 4. Ignorar archivos ocultos de Jupyter o del sistema operativo
+.ipynb_checkpoints/
+.DS_Store
