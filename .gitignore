@@ -14,4 +14,8 @@ __pycache__/
 
 # 4. Ignorar archivos ocultos de Jupyter o del sistema operativo
 .ipynb_checkpoints/
-.DS_Store*.joblib
+.DS_Store
+
+# 5. Ignorar modelos serializados de Machine Learning
+*.joblib
+*.pkl
