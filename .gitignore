@@ -14,4 +14,4 @@ __pycache__/
 
 # 4. Ignorar archivos ocultos de Jupyter o del sistema operativo
 .ipynb_checkpoints/
-.DS_Store
+.DS_Store*.joblib
